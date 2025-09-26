@@ -11,7 +11,7 @@
   <body>
     <!-- Top section - header -->
     <header>
-      <h1><a href="#">Lucas Kokob</a></h1>
+      <h1><a>Lucas Kokob</a></h1>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -59,8 +59,105 @@
           dolorum voluptatem ab!
         </p>
       </section>
+
+      <!-- About Me -->
+      <section id="Me">
+        <h2>About Me</h2>
+
+        <p>My hobbies are:</p>
+        <ul>
+          <li>Playing videogames with friends</li>
+          <li>Watching movies</li>
+          <li>Trying new food spots</li>
+        </ul>
+
+        <p>My top 3 favorite movies:</p>
+        <ol>
+          <li>Cars 2</li>
+          <li>The Fast and the Furious</li>
+          <li>Harry Potter</li>
+        </ol>
+
+        <p>
+          My favorite website:
+          <a href="https://netflix.com" target="">Netflix </a>
+        </p>
+
+        <h3>Contact Information</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Email</td>
+      <td><a href="mailto:lucaskokob@hotmail.com">lucaskokob@hotmail.com</a></td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>0704990019</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Stockholm, Sweden</td>
+    </tr>
+  </tbody>
+</table>
+
+
+      <!-- Form -->
+      <section id="form">
+        <h2>Contact me:</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="30"></textarea
+          ><br /><br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <!-- Media -->
+      <section id="media">
+        <h2>Media</h2>
+        <p>Here is a good audio:</p>
+        <audio controls>
+          <source src="Media/lofi-guitar-105361.mp3" />
+        </audio>
+
+        <p>A nice video:</p>
+        <video width="400" controls>
+          <source src="Media/Sunset.mp4" />
+        </video>
+      </section>
+
+      <!-- External Content -->
+      <section id="Video">
+        <h2>Flexbox Tutorial</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/phWxA89Dy94?si=2atCJEeF87C4soqA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
     </main>
-    <!-- Footer section - footer -->
-    <footer></footer>
+    <!-- Footer with entity example -->
+    <footer>
+      <p>&copy; Lucas Kokob</p>
+    </footer>
   </body>
 </html>
